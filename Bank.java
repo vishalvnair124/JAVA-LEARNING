@@ -31,7 +31,7 @@ class BankAccount{
 			 acc[id].accBalance += money;
 			 System.out.println("Your money amount "+ money +" Succesfully transfered,Your Cureent balance "+acc[i].accBalance);
 		 }else{
-			 System.out.println("Insufficien balance.");
+			 System.out.println("Insufficien balance. you can't withdraw money");
 	   }
 	}
 	void withdraw(BankAccount[] acc,int i){
